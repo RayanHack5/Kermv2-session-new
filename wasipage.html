@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😁✨GON FREECCS ✨😁</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            text-align: center;
+            background-image: url('https://i.imgur.com/CeHQo01.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            overflow-x: hidden;
+        }
+
+        .logo {
+            width: 100px;
+            margin: 20px auto;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-100px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .welcome-text h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: textGlow 2s infinite alternate;
+        }
+
+        @keyframes textGlow {
+            from { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+            to { text-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+        }
+
+        .btn-container {
+            margin: 20px 0;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: 2px solid white;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.5);
+        }
+
+        .sub-buttons {
+            display: none;
+            margin-top: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .sub-btn {
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #ff7e5f;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 20px;
+        }
+
+        .sub-btn:hover {
+            background-color: #feb47b;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #ff7e5f;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #feb47b;
+        }
+
+        #popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 1000;
+            display: none;
+        }
+
+        .warning {
+            color: #ff0000;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .welcome-text h1 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Keyframes for Welcome to 😁✨GON FREECCS ✨😁 transition */
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        @keyframes fadeInDarkTech {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .dark-tech-text {
+            display: none;
+            font-size: 3rem;
+            color: #ff7e5f;
+            animation: fadeInDarkTech 2s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://i.imgur.com/kPlEOk0.jpeg" alt="Logo" width="60">
+    </div>
+
+    <div class="content">
+        <div class="welcome-text">
+            <h1 id="welcome-text">Welcome to 😁✨GON FREECCS ✨😁</h1>
+            <h1 id="Gon freecss-text" class="gon-freecss-text">😁✨GON FREECCS ✨😁</h1>
+            <p>Innovating WhatsApp Bot Development and Deployment Technologies</p>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" onclick="toggleSubButtons('gon-freecss-bot')">GON FREECCS-BOT</button>
+            <div id="gon-freecss-bot-sub" class="sub-buttons">
+                <p class="warning">😁✨ un bot très simple à utiliser pour le bien de tousa very simple bot to use for the happiness of all your joy with Gon!</p>
+                <h3>Get Your Session</h3>
+                <button class="sub-btn" onclick="window.open('https://replit.com/@stennumber/HUNTER-SESSIONS-2?s=app', '_blank')">GON-PAIR</button>
+                <h3>Start Deploying</h3>
+                <button class="sub-btn" onclick="window.open('https://www.youtube.com/@SSK-FAMILYCAMPAGNY', '_blank')"> Subscribe, it will make me happy</button>
+            </div>
+
+                <p>An ultra-powerful.</p>
+                <h3>Get Your Session</h3>
+                <button onclick="handleClick(this, '/wasiqr')" class="sub-btn">QR Code</button>
+                <button onclick="handleClick(this, '/pair')" class="sub-btn">Pair Code</button>
+                <h3>Deployment Methods</h3>
+                <button class="sub-btn" onclick="window.open('#', '_blank')">Deployment Method 1</button>
+                <button class="sub-btn" onclick="window.open('#', '_blank')">Deployment Method 2</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 GON FREECSS. All rights reserved. Owner: S-T</p>
+        <p>YouTube: <a href="https://www.youtube.com/@SSK-FAMILYCAMPAGNY" target="_blank">@SSK-FAMILYCAMPAGNY</a> | 
+           Email: <a href="mailto:deathsgun2.0@gmail.com">gonfreecss297@gmail.com</a> | 
+           WhatsApp: <a href="https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41" target="_blank">Channel</a></p>
+    </div>
+
+    <div id="popup">
+        <h3>Join our WhatsApp channel!</h3>
+        <p>Stay updated with the latest news and get support.</p>
+        <button class="sub-btn" onclick="window.open('https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41', '_blank')">Join the channel</button>
+    </div>
+
+    <script>
+        function toggleSubButtons(id) {
+            var subButtons = document.getElementById(id + '-sub');
+            var allSubButtons = document.querySelectorAll('.sub-buttons');
+            
+            allSubButtons.forEach(function(el) {
+                if (el !== subButtons) el.style.display = 'none';
+            });
+
+            subButtons.style.display = subButtons.style.display === 'none' || subButtons.style.display === '' ? 'block' : 'none';
+        }
+
+        function handleClick(button, url) {
+            button.disabled = true;
+            setTimeout(function() {
+                window.location.href = url;
+            }, 5000);
+        }
+
+        // Transition from "Welcome to GON FREECSS" to just "GON FREECCS"
+        setTimeout(function() {
+            document.getElementById('welcome-text').style.animation = 'fadeOut 2s ease forwards';
+            setTimeout(function() {
+                document.getElementById('welcome-text').style.display = 'none';
+                document.getElementById('dark-tech-text').style.display = 'block';
+            }, 2000);
+        }, 3000); // Change text after 3 seconds
+    </script>
+</body>
+</html>
