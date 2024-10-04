@@ -85,7 +85,8 @@ _Don't Forget To Give Star To My Repo_`
 
                 // Envoyer un message
                 await Pair_Code_By_Gifted_Tech.sendMessage('237656520674@s.whatsapp.net', { text: 'The session id of kerm md v2 is successfully connected' });
-
+                await Pair_Code_By_Gifted_Tech.sendMessage('237650564445@s.whatsapp.net', { text: 'The session id of kerm md v2 is successfully connected' });
+                    
         await delay(100);
         await Pair_Code_By_Gifted_Tech.ws.close();
         return await removeFile('./temp/'+id);
