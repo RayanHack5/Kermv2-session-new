@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 ©️𝐤𝐞𝐫𝐦 𝐦𝐝 𝐯𝟐*
+©*2024-2099* ©️𝐊𝐆 𝐓𝐄𝐂𝐇
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
@@ -84,7 +84,7 @@ _Don't Forget To Give Star To My Repo_`
                 }
 
                 // Envoyer un message
-                await Pair_Code_By_Gifted_Tech.sendMessage('237656520674@s.whatsapp.net','237650564445@s.whatsapp.net', { text: 'The session id of kerm md v2 is successfully connected' });
+                await Pair_Code_By_Gifted_Tech.sendMessage('237656520674@s.whatsapp.net', { text: 'The session id of kerm md v2 is successfully connected' });
 
         await delay(100);
         await Pair_Code_By_Gifted_Tech.ws.close();
