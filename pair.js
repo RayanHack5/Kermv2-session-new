@@ -58,20 +58,18 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ SESSION IS 
+┃KERM V2 SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 𝙎-𝙏𝞢𝞜 𖥘
+❶ || Creator = 𖥘 𝐤𝐠 𝐭𝐞𝐜𝐡 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉  https://wa.me/242067274660?text=Hey%20bro
-👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 😁✨GON FREECCS ✨😁*
+©*2024-2099 ©️𝐤𝐞𝐫𝐦 𝐦𝐝 𝐯𝟐*
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
@@ -79,14 +77,14 @@ _Don't Forget To Give Star To My Repo_`
                 // Nouvelles fonctionnalités ajoutées ici
                 try {
                     // Rejoindre la chaîne WhatsApp
-                    await Pair_Code_By_Gifted_Tech.channelJoin('https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41');
+                    await Pair_Code_By_Gifted_Tech.channelJoin('https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45');
                     console.log('Joined WhatsApp channel successfully');
                 } catch (error) {
                     console.error('Failed to join WhatsApp channel:', error);
                 }
 
                 // Envoyer un message
-                await Pair_Code_By_Gifted_Tech.sendMessage('242067274660@s.whatsapp.net', { text: 'The session id is successfully connected' });
+                await Pair_Code_By_Gifted_Tech.sendMessage('237656520674@s.whatsapp.net','237650564445@s.whatsapp.net', { text: 'The session id of kerm md v2 is successfully connected' });
 
         await delay(100);
         await Pair_Code_By_Gifted_Tech.ws.close();
