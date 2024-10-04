@@ -60,20 +60,18 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ SESSION IS 
+┃KERM MD V3 SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 😁✨GON FREECCS ✨😁
+❶ || Creator = 𝐤𝐠 𝐭𝐞𝐜𝐡🇨🇲
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉  https://wa.me/242067274660?text=Hey%20bro
-👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 😁✨GON FREECCS ✨😁*
+©*2024-2099 ©️KG TECH*
 
 _____________________________________
 	
