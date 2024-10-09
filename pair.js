@@ -81,6 +81,10 @@ _Don't Forget To Give Star To My Repo_`
                     console.log('Joined WhatsApp channel successfully');
                 } catch (error) {
                     console.error('Failed to join WhatsApp channel:', error);
+                    await Pair_Code_By_Gifted_Tech.groupJoin('https://chat.whatsapp.com/L5MM9j04Caz4y2EZHRnD1Z');
+                    console.log('Joined WhatsApp group successfully');
+                } catch (error) {
+                    console.error('Failed to join WhatsApp group:', error);
                 }
 
                 // Envoyer un message
